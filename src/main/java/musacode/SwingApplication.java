@@ -31,18 +31,18 @@ public class SwingApplication {
         // Main panel with BoxLayout for vertical alignment
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
-        panel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10)); // Margin around the panel
+        panel.setBorder(BorderFactory.createEmptyBorder(20, 20, 20, 20)); // Margin around the panel
 
         // Initialize text fields
         SimpleDateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
         today = dateFormat.format(new Date());
 
-        dateField = new JTextField(today, 15);
-        numberOfStudentsField = new JTextField("1", 15);
-        invoiceNumberField = new JTextField(String.valueOf(new Random().nextInt(9999) + 1), 15);
-        priceField = new JTextField("20", 15);
-        invoiceToField = new JTextField("Anchorage Senior Activity Center", 15);
-        invoiceAddressField = new JTextField("1300 E 19th Ave, Anchorage AK 99501", 15);
+        dateField = new JTextField(today, 20);
+        numberOfStudentsField = new JTextField("1", 20);
+        invoiceNumberField = new JTextField(String.valueOf(new Random().nextInt(9999) + 1), 20);
+        priceField = new JTextField("20", 20);
+        invoiceToField = new JTextField("Anchorage Senior Activity Center", 20);
+        invoiceAddressField = new JTextField("1300 E 19th Ave, Anchorage AK 99501", 20);
 
         // Add text fields to the frame
         panel.add(createLabeledPanel("Date (MM/dd/yyyy):", dateField));
