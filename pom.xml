@@ -68,7 +68,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>musacode.Main</mainClass>
+                            <mainClass>musacode.SwingApplication</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -96,7 +96,7 @@
                         <transformers>
                             <transformer
                             implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                            <mainClass>musacode.Main</mainClass>
+                            <mainClass>musacode.SwingApplication</mainClass>
                             </transformer>
                         </transformers>
                         </configuration>

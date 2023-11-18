@@ -44,7 +44,7 @@
           </descriptorRefs>
           <archive>
             <manifest>
-              <mainClass>musacode.Main</mainClass>
+              <mainClass>musacode.SwingApplication</mainClass>
             </manifest>
           </archive>
         </configuration>
@@ -61,7 +61,7 @@
             <configuration>
               <transformers>
                 <transformer>
-                  <mainClass>musacode.Main</mainClass>
+                  <mainClass>musacode.SwingApplication</mainClass>
                 </transformer>
               </transformers>
             </configuration>
