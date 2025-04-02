@@ -2,6 +2,7 @@ package musacode;
 
 import java.time.LocalDate;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class InputData {
@@ -12,15 +13,17 @@ public class InputData {
     private String invoiceTo;
     private String invoiceToAddress;
     private String today;
+    private List<LineItem> lineItems;
 
     
-    public InputData(String date, int students, int price, int invoiceNum, String invoiceTo, String invoiceToAddress) {
+    public InputData(String date, int students, int price, int invoiceNum, String invoiceTo, String invoiceToAddress, List<LineItem> lineItems) {
         this.date = date;
         this.students = students;
         this.price = price;
         this.invoiceNum = invoiceNum;
         this.invoiceTo = invoiceTo;
         this.invoiceToAddress = invoiceToAddress;
+        this.lineItems = lineItems;
         this.today = LocalDate.now().toString();
     }
 
