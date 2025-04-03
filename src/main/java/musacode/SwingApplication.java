@@ -151,7 +151,8 @@ public class SwingApplication {
 
         // At this point, you can do whatever you like with `allLineItems`.
         // The rest of your doc-generation logic remains the same:
-        String basePath = "docs\\";
+        // String basePath = "docs\\";
+        String basePath = "/Users/namiwilliams/Desktop/docs/";
         // String basePath = "C:\\Users\\guita\\Documents\\";
         String docPath = basePath + "Template.docx";
         String intermediatePath = basePath + "Output.docx";
